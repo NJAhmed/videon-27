@@ -1,0 +1,136 @@
+
+@media (max-width:1200px) {
+    .header-logo img {
+        max-width: 140px;
+    }
+    .header-menu ul li {
+        line-height: 75px;
+    }
+    .header-menu ul li a {
+        padding: 0 29px;
+    }
+
+    .product-item p {
+        padding-top: 0 !important;
+        font-size: 14px;
+        letter-spacing: .03em;
+    }
+    .product-right ul li {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:992px) {
+    .header-logo img {
+        max-width: 115px;
+    }
+    .header-menu ul li {
+        line-height: 62px;
+    }
+    .header-menu ul li a {
+        padding: 0 15px;
+    }
+
+    .banner {
+        padding: 180px 0;
+    }
+    .banner-text h4 {
+        font-size: 18px;
+    }
+    .banner-text h2 {
+        max-width: 380px;
+        font-size: 25px;
+    }
+
+    .product-item img {
+        max-width: 115%;
+    }
+    .product-item .col-md-9 {
+        height: 116px;
+        overflow: scroll;
+        margin-bottom: 20px;
+    }
+    .product-item p {
+        background: #fafafa;
+        padding: 20px 12px;
+        margin-bottom: 0;
+    }
+
+    .product-right {
+        height: 608px;
+        overflow: scroll;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width:768px) {
+    .header-logo {
+        text-align: center;
+        padding-top: 7px;
+    }
+    .header-menu {
+        text-align: center !important;
+    }
+    .header-menu ul li {
+        border-right: none;
+    }
+
+    .about .lead {
+        font-size: 17px;
+    }
+
+    .service .card {
+        margin: 15px 30px;
+    }
+
+    .footer p {
+        text-align: center;
+        padding: 6px;
+    }
+    .footer .col-md-6.text-right {
+        text-align: center !important;
+        padding: 10px;
+    }
+    .footer .col-md-6.text-right a:nth-child(1) {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:576px) {
+    .header-menu ul li a {
+        padding: 0 10px;
+        font-size: 13px;
+    }
+
+    .banner {
+        padding: 120px 0;
+    }
+
+    .about{
+        padding: 0 25px;
+    }
+    .about .lead {
+        font-size: 17px;
+    }
+
+    .product-item .col-md-3 {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .product-item img {
+        max-width: 19%;
+        box-shadow: 0 0 9px 2px black;
+        padding: 7px;
+    }
+    .product-item .col-md-9 {
+        height: 110px;
+        width: 60%;
+        margin: 5px auto;
+        border: 1px solid;
+        padding: 0;
+    }
+
+    .product-right {
+        margin-top: 35px;
+    }
+}
